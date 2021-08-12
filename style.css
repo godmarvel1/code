@@ -157,6 +157,27 @@ body {
 }
 
 
+.youtube-link {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-link:hover {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-icon {
+    width: 30px;
+    height: 27.262px;
+}
+
 .upload {
     width: 20%;
 }
@@ -236,7 +257,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(174, 0, 255, 0.2);
+  background-color: rgba(251, 176, 59, 0.2);
 }
 .captainamerica-bar {
   position: absolute;
@@ -244,7 +265,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgb(174, 0, 255, 1);
+  background-color: rgba(251, 176, 59, 1);
 }
 /* .bear-box {
   position: absolute;
@@ -319,10 +340,10 @@ body {
     font-size: 1.5rem;
 }
 .spiderman-animal-title {
-    color: #00f7ff;
+    color: #3ba363;
 }
 .spiderman-animal-celeb {
-    color: #00f7ff;
+    color: #3ba363;
     font-size: 1.2rem;
 }
 .doctorstrange-animal-title {
@@ -340,10 +361,10 @@ body {
     font-size: 1.2rem;
 }
 .captainamerica-animal-title {
-    color: #b10aff;
+    color: #548dd4;
 }
-.captainamerica-celeb {
-    color: #b10aff;
+.captainamerica-animal-celeb {
+    color: #548dd4;
     font-size: 1.2rem;
 }
 /* 클래스가 더 많으면 넣으세요 */
