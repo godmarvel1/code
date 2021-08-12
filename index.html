@@ -126,6 +126,7 @@
 function removeUpload() {
   $('.file-upload-input').replaceWith($('.file-upload-input').clone());
   $('.file-upload-content').hide();
+  $('#loading').show();
   $('.image-upload-wrap').show();
 }
 $('.image-upload-wrap').bind('dragover', function () {
@@ -156,11 +157,11 @@ $('.image-upload-wrap').bind('dragover', function () {
 
     <div id="loading" class="animated bounce">
       <div class="spinner-border" role="status"> </div>
-        <p><span class="sr-only"> Loading...</span></p>
+        <p><span class="sr-only"> 분석중...</span></p>
     </div>
     <div class="image-title-wrap">
-      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
-      
+      <button type="button" onclick="removeUpload()" class="remove-image">Remove<span
+      class="image-title">Uploaded Image</span></button>
     </div>
     
   </div>
