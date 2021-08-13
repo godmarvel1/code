@@ -9,7 +9,8 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
-    background-color: #f6f7fa;
+    background-color: #e2ecf4;
+    height: 250;
 }
 .file-upload-btn {
   width: 100%;
@@ -123,7 +124,7 @@ body {
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: left;
-  color: #35465d; 
+  color: #ff0000; 
 }
 
 .navbar-light .navbar-toggler {
@@ -137,13 +138,13 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #35465d;
+  color: #00e1ff;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #35465d;
+  color: #006cfa;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -154,28 +155,6 @@ body {
     .navbar-brand {
         font-size: 2rem;
     }
-}
-
-
-.youtube-link {
-    font-size: 1.5rem;
-    line-height: 1.71;
-    text-align: center;
-    color: #f73737;
-    text-decoration: underline;
-}
-
-.youtube-link:hover {
-    font-size: 1.5rem;
-    line-height: 1.71;
-    text-align: center;
-    color: #f73737;
-    text-decoration: underline;
-}
-
-.youtube-icon {
-    width: 30px;
-    height: 27.262px;
 }
 
 .upload {
