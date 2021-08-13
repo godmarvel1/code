@@ -1,6 +1,6 @@
 body {
   font-family: 'Jua', sans-serif;
-  background-color: #caffde;
+  background-color: #ffffff;
   box-sizing: border-box;
   color: #35465d;
 }
@@ -8,8 +8,8 @@ body {
     padding: 15% 3%;
     margin: 0 auto;
     border-radius: 10px;
-    border: solid 1.5px #caffed;
-    background-color: #bbf1e4;
+    border: solid 1.5px #fff;
+    background-color: #e2ecf4;
     height: 250;
 }
 .file-upload-btn {
@@ -136,15 +136,21 @@ body {
 }
 
 .title {
-  line-height: 1.67;
+  line-height: 1.75;
   text-align: center;
   color: #00e1ff;
 }
 
 .subtitle {
-  line-height: 1.53;
+  line-height: 1.63;
   text-align: center;
   color: #006cfa;
+}
+
+.othertitle{
+  line-height: 1.53;
+  text-align: center;
+  color: darkturquoise
 }
 
 /* On screens that are 600px or less, set the background color to olive */
