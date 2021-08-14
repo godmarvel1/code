@@ -252,7 +252,7 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-/* .bear-box {
+.blackwidow-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -261,7 +261,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.bear-bar {
+.blackwidow-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -269,7 +269,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.fox-box {
+.blackpanther-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -278,7 +278,7 @@ body {
   width: 100%;
   background-color: rgba(49, 132, 155, 0.2);
 }
-.fox-bar {
+.blackpanther-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -286,6 +286,7 @@ body {
   border-radius: 10px;
   background-color: rgba(49, 132, 155, 1);
 }
+/*
 .rabbit-box {
   position: absolute;
   top: 0;
@@ -352,21 +353,22 @@ body {
     color: #548dd4;
     font-size: 1.2rem;
 }
+.blackwidow-animal-title {
+    color: #e56995;
+}
+.blackwidow-animal-celeb {
+    color: #e56995;
+    font-size: 1.2rem;
+}
+.blackpanther-animal-title {
+    color: #9b6b43;
+}
+.blackpanther-animal-celeb {
+    color: #9b6b43;
+    font-size: 1.2rem;
+}
 /* 클래스가 더 많으면 넣으세요 */
-/* .rabbit-animal-title {
-    color: #e56995;
-}
-.rabbit-animal-celeb {
-    color: #e56995;
-    font-size: 1.2rem;
-}
-.bear-animal-title {
-    color: #9b6b43;
-}
-.bear-animal-celeb {
-    color: #9b6b43;
-    font-size: 1.2rem;
-}
+/*
 .fox-animal-title {
     color: #31849b;
 }

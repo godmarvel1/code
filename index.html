@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,17 +12,18 @@
 	<title>어벤져스 닮은꼴 테스트</title>
 	<meta name="title" content="어벤져스 닮은꼴 찾기">
 	<meta name="subject" content="나와 닮은 어벤져스 맴버를 찾아보세요!">
-	<meta name="keywords" content="어벤져스 닮은꼴 찾기, 인공지능 어벤져스 닮은꼴 찾기, 나와 닮은 어벤져스 멤버 찾기, AVENGERS, 스파이더맨, 닥터스트레인지, 아이언맨, 캡틴아메리카">
+	<meta name="keywords" content="어벤져스 닮은꼴 찾기, 인공지능 어벤져스 닮은꼴 찾기, 나와 닮은 어벤져스 멤버 찾기, AVENGERS">
 	<link rel="stylesheet" href="style.css">
 	<link rel="canonical" href="https://avengerswebsite.netlify.app/" />
 	<meta property="og:url" content="https://avengerswebsite.netlify.app/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="어벤져스 닮은꼴" />
-	<meta property="og:description" content="어벤져스 닮은꼴 테스트, 나와 닮은 어벤져스 멤버 찾기, AVENGERS, 스파이더맨, 닥터스트레인지, 아이언맨, 캡틴아메리카" />
+	<meta property="og:description" content="어벤져스 닮은꼴 테스트, 나와 닮은 어벤져스 멤버 찾기, AVENGERS" />
 	<meta property="og:image" content="./mcu-001.png" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e64b3727e862b06">
+
 	</script>
 	<!-- 검색엔진 -->
 	<meta name="google-site-verification" content="pJSlUSZsxBgbraG7Vb6zOY8Cv9CsoBRvtkPGKzAFQWc" />
@@ -71,7 +72,16 @@
                         resultTitle = "캡틴아메리카를 닮았어요"
                         resultExplain = "캡틴아메리카에 대한 설명"
                         resultCeleb = "본명: 스티븐 그랜트 스티브 로저스, 히어로명: 캡틴아메리카, 종족: 인간, 성별: 남성"
-
+                        break;
+                    case "blackwidow":
+                        resultTitle = "블랙위도우를 닮았어요"
+                        resultExplain = "블랙위도우에 대한 설명"
+                        resultCeleb = "본명: 스티븐 그랜트 스티브 로저스, 히어로명: 블랙위도우, 종족: 인간, 성별: 여성"
+                        break;
+                    case "blackpanther":
+                        resultTitle = "블랙팬서를 닮았어요"
+                        resultExplain = "블랙팬서에 대한 설명"
+                        resultCeleb = "본명: 스티븐 그랜트 스티브 로저스, 히어로명: 블랙팬서, 종족: 인간, 성별: 남성"
                         break;
                     default:
                         resultTitle = "알수없음"
@@ -107,6 +117,12 @@
                     case "captainamerica":
                         labelTitle = "캡틴아메리카"
                         break;
+                    case "blackwidow":
+                        labelTitle = "블랙위도우"
+                        break;
+                    case "blackpanther":
+                        labelTitle = "블랙팬서"
+                        break;
                     default:
                         labelTitle = "알수없음"
                 }
@@ -140,7 +156,7 @@
         <h2 class="othertitle">나와 닮은 어벤져스 맴버를 찾아보세요!</h2>
         <h3 class="sr-only">어벤져스 사진 데이터로 학습한 인공지능이 나의 얼굴과 비슷한 어벤져스 멤버를 찾아드립니다.</h3>
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
-        <p class="sr-only">어벤져스 닮은꼴 찾기, 인공지능 어벤져스 닮은꼴 찾기, 나와 닮은 어벤져스 멤버 찾기, AVENGERS, 스파이더맨, 닥터스트레인지, 아이언맨, 캡틴아메리카</p>
+        <p class="sr-only">어벤져스 닮은꼴 찾기, 인공지능 어벤져스 닮은꼴 찾기, 나와 닮은 어벤져스 멤버 찾기, AVENGERS</p>
     </section>
   
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
