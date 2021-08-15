@@ -286,8 +286,7 @@ body {
   border-radius: 10px;
   background-color: rgba(49, 132, 155, 1);
 }
-/*
-.rabbit-box {
+.thanos-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -296,14 +295,14 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.rabbit-bar {
+.thanos-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
-} */
+}
 .percent-text {
   font-size: 1rem;
   color: #35465d;
@@ -367,15 +366,13 @@ body {
     color: #9b6b43;
     font-size: 1.2rem;
 }
-/* 클래스가 더 많으면 넣으세요 */
-/*
-.fox-animal-title {
+.thanos-animal-title {
     color: #31849b;
 }
-.fox-animal-celeb {
+.thanos-animal-celeb {
     color: #31849b;
     font-size: 1.2rem;
-} */
+}
 
 /* gender */
 label {
