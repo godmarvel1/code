@@ -81,16 +81,18 @@
                     case "blackpanther":
                         resultTitle = "블랙팬서를 닮았어요"
                         resultExplain = "블랙팬서에 대한 설명"
-                        resultCeleb = "본명: 스티븐 그랜트 스티브 로저스, 히어로명: 블랙팬서, 종족: 인간, 성별: 남성"
+                        resultCeleb = "본명: 트찰라, 히어로명: 블랙팬서, 종족: 인간, 성별: 남성"
+                        break;
                     case "thanos":
                         resultTitle = "타노스를 닮았어요"
                         resultExplain = "타노스에 대한 설명"
-                        resultCeleb = "본명: 스티븐 그랜트 스티브 로저스, 히어로명: 블랙팬서, 종족: 인간, 성별: 남성"
-                        break;
-                    default:
+                        resultCeleb = "본명: 타노스, 빌런명: 타노스, 종족: 이터널, 성별: 남성"
+                        break;                
+                        default:
                         resultTitle = "알수없음"
                         resultExplain = ""
                         resultCeleb = ""
+                        break;
                 }
              
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
@@ -133,6 +135,7 @@
 
                     default:
                         labelTitle = "알수없음"
+                        break;
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 

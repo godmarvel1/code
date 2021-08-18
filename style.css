@@ -302,7 +302,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
-}
+} 
 .percent-text {
   font-size: 1rem;
   color: #35465d;
@@ -332,45 +332,45 @@ body {
     font-size: 1.2rem;
 }
 .doctorstrange-animal-title {
-    color: #3ba363;
+    color: #a33b3b;
 }
 .doctorstrange-animal-celeb {
-    color: #3ba363;
+    color: #a33b3b;
     font-size: 1.2rem;
 }
 .ironman-animal-title {
-    color: #ff6c0a;
+    color: #3b45a3;
 }
 .ironman-animal-celeb {
-    color: #ff6c0a;
+    color: #3b45a3;
     font-size: 1.2rem;
 }
 .captainamerica-animal-title {
-    color: #548dd4;
+    color: #e2d407;
 }
 .captainamerica-animal-celeb {
-    color: #548dd4;
+    color: #e2d407;
     font-size: 1.2rem;
 }
 .blackwidow-animal-title {
-    color: #e56995;
+    color: #a3763b;
 }
 .blackwidow-animal-celeb {
-    color: #e56995;
+    color: #a3763b;
     font-size: 1.2rem;
 }
 .blackpanther-animal-title {
-    color: #9b6b43;
+    color: #3b97a3;
 }
 .blackpanther-animal-celeb {
-    color: #9b6b43;
+    color: #3b97a3;
     font-size: 1.2rem;
 }
 .thanos-animal-title {
-    color: #31849b;
+    color: #a33b9a;;
 }
 .thanos-animal-celeb {
-    color: #31849b;
+    color: #a33b9a;;
     font-size: 1.2rem;
 }
 
